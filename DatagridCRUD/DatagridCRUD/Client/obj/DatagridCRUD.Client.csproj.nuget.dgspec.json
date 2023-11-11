@@ -1,0 +1,194 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\digdr\\Documents\\coding\\PG-Datagrid\\DatagridCRUD\\DatagridCRUD\\Client\\DatagridCRUD.Client.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\digdr\\Documents\\coding\\PG-Datagrid\\DatagridCRUD\\DatagridCRUD\\Client\\DatagridCRUD.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\digdr\\Documents\\coding\\PG-Datagrid\\DatagridCRUD\\DatagridCRUD\\Client\\DatagridCRUD.Client.csproj",
+        "projectName": "DatagridCRUD.Client",
+        "projectPath": "C:\\Users\\digdr\\Documents\\coding\\PG-Datagrid\\DatagridCRUD\\DatagridCRUD\\Client\\DatagridCRUD.Client.csproj",
+        "packagesPath": "C:\\Users\\digdr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\digdr\\Documents\\coding\\PG-Datagrid\\DatagridCRUD\\DatagridCRUD\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\digdr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\digdr\\Documents\\coding\\PG-Datagrid\\DatagridCRUD\\DatagridCRUD\\Shared\\DatagridCRUD.Shared.csproj": {
+                "projectPath": "C:\\Users\\digdr\\Documents\\coding\\PG-Datagrid\\DatagridCRUD\\DatagridCRUD\\Shared\\DatagridCRUD.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.NET.ILLink.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.100-1.23211.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.100-1.23211.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.Sdk.WebAssembly.Pack": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0-rc.2.23479.6, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.23, 6.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\digdr\\Documents\\coding\\PG-Datagrid\\DatagridCRUD\\DatagridCRUD\\Shared\\DatagridCRUD.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\digdr\\Documents\\coding\\PG-Datagrid\\DatagridCRUD\\DatagridCRUD\\Shared\\DatagridCRUD.Shared.csproj",
+        "projectName": "DatagridCRUD.Shared",
+        "projectPath": "C:\\Users\\digdr\\Documents\\coding\\PG-Datagrid\\DatagridCRUD\\DatagridCRUD\\Shared\\DatagridCRUD.Shared.csproj",
+        "packagesPath": "C:\\Users\\digdr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\digdr\\Documents\\coding\\PG-Datagrid\\DatagridCRUD\\DatagridCRUD\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\digdr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

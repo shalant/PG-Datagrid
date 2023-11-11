@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatagridCRUD.Server", "DatagridCRUD\Server\DatagridCRUD.Server.csproj", "{BE9DD16E-B429-438C-80D5-C8BA978BCD57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatagridCRUD.Client", "DatagridCRUD\Client\DatagridCRUD.Client.csproj", "{335CA5E4-7BCE-48F1-9162-11F8590F96DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatagridCRUD.Shared", "DatagridCRUD\Shared\DatagridCRUD.Shared.csproj", "{7656C72C-4211-40FE-9784-EF6CC38281D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE9DD16E-B429-438C-80D5-C8BA978BCD57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE9DD16E-B429-438C-80D5-C8BA978BCD57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE9DD16E-B429-438C-80D5-C8BA978BCD57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE9DD16E-B429-438C-80D5-C8BA978BCD57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{335CA5E4-7BCE-48F1-9162-11F8590F96DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{335CA5E4-7BCE-48F1-9162-11F8590F96DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{335CA5E4-7BCE-48F1-9162-11F8590F96DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{335CA5E4-7BCE-48F1-9162-11F8590F96DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7656C72C-4211-40FE-9784-EF6CC38281D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7656C72C-4211-40FE-9784-EF6CC38281D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7656C72C-4211-40FE-9784-EF6CC38281D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7656C72C-4211-40FE-9784-EF6CC38281D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21342527-E858-4B7D-9D39-A4F0632F8F28}
+	EndGlobalSection
+EndGlobal
