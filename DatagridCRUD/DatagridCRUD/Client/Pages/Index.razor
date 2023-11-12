@@ -1,4 +1,5 @@
 ﻿@page "/"
+@using DatagridCRUD.Shared
 
 <PageTitle>Index</PageTitle>
 
@@ -7,3 +8,81 @@
 Welcome to your new app.
 
 <SurveyPrompt Title="How is Blazor working for you?" />
+
+
+<SfGrid DataSource="@Employees">
+    <GridColumn Field=@nameof(Employee.EmployeeId) HeaderText="ID"></GridColumn>
+    <GridColumn Field=@nameof(Employee.FirstName) HeaderText="First Name"></GridColumn>
+    <GridColumn Field=@nameof(Employee.LastName) HeaderText="Last Name"></GridColumn>
+    <GridColumn Field=@nameof(Employee.Email) HeaderText="Email"></GridColumn>
+</SfGrid>
+
+@code {
+    public List<Employee> Employees { get; set; }
+
+    protected override void OnInitialized()
+    {
+        Employees = LoadData();
+    }
+
+    private List<Employee> LoadData()
+    {
+        Employee e1 = new Employee
+            {
+                EmployeeId = 1,
+                FirstName = "Bob",
+                LastName = "Jones",
+                Email = "Bob.Jones@gmail.com",
+                DateOfBirth = new DateTime(2000, 11, 9),
+                Gender = Gender.Female,
+                Department = new Department { DepartmentID = 1, DepartmentName = "Cook" },
+                PhotoPath = "Images/bob.png"
+            };
+
+        Employee e2 = new Employee
+            {
+                EmployeeId = 2,
+                FirstName = "Bob",
+                LastName = "Jones",
+                Email = "Bob.Jones@gmail.com",
+                DateOfBirth = new DateTime(2000, 11, 9),
+                Gender = Gender.Female,
+                Department = new Department { DepartmentID = 1, DepartmentName = "Cook" },
+                PhotoPath = "Images/bob.png"
+            };
+        Employee e3 = new Employee
+            {
+                EmployeeId = 3,
+                FirstName = "Bob",
+                LastName = "Jones",
+                Email = "Bob.Jones@gmail.com",
+                DateOfBirth = new DateTime(2000, 11, 9),
+                Gender = Gender.Female,
+                Department = new Department { DepartmentID = 1, DepartmentName = "Cook" },
+                PhotoPath = "Images/bob.png"
+            };
+        Employee e4 = new Employee
+            {
+                EmployeeId = 4,
+                FirstName = "Bob",
+                LastName = "Jones",
+                Email = "Bob.Jones@gmail.com",
+                DateOfBirth = new DateTime(2000, 11, 9),
+                Gender = Gender.Female,
+                Department = new Department { DepartmentID = 1, DepartmentName = "Cook" },
+                PhotoPath = "Images/bob.png"
+            };
+        Employee e5 = new Employee
+            {
+                EmployeeId = 5,
+                FirstName = "Bob",
+                LastName = "Jones",
+                Email = "Bob.Jones@gmail.com",
+                DateOfBirth = new DateTime(2000, 11, 9),
+                Gender = Gender.Female,
+                Department = new Department { DepartmentID = 1, DepartmentName = "Cook" },
+                PhotoPath = "Images/bob.png"
+            };
+        return new List<Employee> { e1, e2, e3, e4, e5 };
+    }
+}

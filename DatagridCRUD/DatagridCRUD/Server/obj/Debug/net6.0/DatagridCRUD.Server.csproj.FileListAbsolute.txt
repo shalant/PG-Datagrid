@@ -1,0 +1,9 @@
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Server\obj\Debug\net6.0\DatagridCRUD.Server.csproj.AssemblyReference.cache
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Server\obj\Debug\net6.0\DatagridCRUD.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Server\obj\Debug\net6.0\DatagridCRUD.Server.AssemblyInfoInputs.cache
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Server\obj\Debug\net6.0\DatagridCRUD.Server.AssemblyInfo.cs
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Server\obj\Debug\net6.0\DatagridCRUD.Server.csproj.CoreCompileInputs.cache
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Server\obj\Debug\net6.0\DatagridCRUD.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Server\obj\Debug\net6.0\DatagridCRUD.Server.RazorAssemblyInfo.cache
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Server\obj\Debug\net6.0\DatagridCRUD.Server.RazorAssemblyInfo.cs
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Server\obj\Debug\net6.0\DatagridCRUD.Server.sourcelink.json

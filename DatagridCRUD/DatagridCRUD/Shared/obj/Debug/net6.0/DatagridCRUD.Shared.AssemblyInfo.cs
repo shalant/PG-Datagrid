@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DatagridCRUD.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77efe2ea45972961a1435b6203aa6e5bdcccb019")]
 [assembly: System.Reflection.AssemblyProductAttribute("DatagridCRUD.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DatagridCRUD.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,7 @@
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Client\obj\Debug\net6.0\DatagridCRUD.Client.csproj.AssemblyReference.cache
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Client\obj\Debug\net6.0\DatagridCRUD.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Client\obj\Debug\net6.0\DatagridCRUD.Client.AssemblyInfoInputs.cache
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Client\obj\Debug\net6.0\DatagridCRUD.Client.AssemblyInfo.cs
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Client\obj\Debug\net6.0\DatagridCRUD.Client.csproj.CoreCompileInputs.cache
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Client\obj\Debug\net6.0\DatagridCRUD.Client.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Client\obj\Debug\net6.0\DatagridCRUD.Client.sourcelink.json

@@ -1,0 +1,12 @@
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Shared\bin\Debug\net6.0\DatagridCRUD.Shared.deps.json
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Shared\bin\Debug\net6.0\DatagridCRUD.Shared.dll
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Shared\bin\Debug\net6.0\DatagridCRUD.Shared.pdb
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Shared\obj\Debug\net6.0\DatagridCRUD.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Shared\obj\Debug\net6.0\DatagridCRUD.Shared.AssemblyInfoInputs.cache
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Shared\obj\Debug\net6.0\DatagridCRUD.Shared.AssemblyInfo.cs
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Shared\obj\Debug\net6.0\DatagridCRUD.Shared.csproj.CoreCompileInputs.cache
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Shared\obj\Debug\net6.0\DatagridCRUD.Shared.sourcelink.json
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Shared\obj\Debug\net6.0\DatagridCRUD.Shared.dll
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Shared\obj\Debug\net6.0\refint\DatagridCRUD.Shared.dll
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Shared\obj\Debug\net6.0\DatagridCRUD.Shared.pdb
+C:\Users\digdr\Documents\coding\PG-Datagrid\DatagridCRUD\DatagridCRUD\Shared\obj\Debug\net6.0\ref\DatagridCRUD.Shared.dll
