@@ -1,0 +1,60 @@
+﻿@page "/weather"
+@inject HttpClient Http
+
+<PageTitle>Weather</PageTitle>
+
+<h1>Weather</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+@if (forecasts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <ul>
+        <SelectList Items="forecasts" @bind-SelectedItems="SelectedForecasts" Context="forecast">
+            <ItemTemplate>
+                <li>
+                    @forecast.Summary
+                </li>
+            </ItemTemplate>
+        </SelectList>
+    </ul>
+    
+}
+
+<hr/>
+<h2>Selected Items</h2>
+
+<ul>
+    @foreach (var item in SelectedForecasts)
+    {
+        <li>@item.TemperatureC : @item.Summary</li>
+    }
+</ul>
+
+
+
+@code {
+    private WeatherForecast[]? forecasts;
+
+    List<WeatherForecast> SelectedForecasts { get; set; } = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+    }
+
+    public class WeatherForecast
+    {
+        public DateOnly Date { get; set; }
+
+        public int TemperatureC { get; set; }
+
+        public string? Summary { get; set; }
+
+        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+    }
+}
