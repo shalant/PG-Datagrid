@@ -1,12 +1,20 @@
 ﻿@typeparam TItem
 
+<div class="container">
 @foreach (var item in Items)
 {
     var id = Guid.NewGuid();
-    <label for="@id">@ItemTemplate(item)</label>
-    <input id="@id" type="checkbox" @onchange="_ => HandleChange(item)" />
-
+    <label for="@id" class="option_item">
+        <input id="@id" type="checkbox" class="checkbox" @onchange="_ => HandleChange(item)" />
+        <div class="option_inner theme">
+            <div class="tickmark"></div>
+            <div class="name">
+                @ItemTemplate(item)
+            </div>
+        </div>
+    </label>
 }
+</div>
 
 @code {
     [Parameter]
@@ -19,7 +27,7 @@
     public List<TItem> SelectedItems { get; set; }
 
     [Parameter]
-    public EventCallback<List<TItem>> SelectedItemsChanged {get;set;}
+    public EventCallback<List<TItem>> SelectedItemsChanged { get; set; }
 
     void HandleChange(TItem item)
     {

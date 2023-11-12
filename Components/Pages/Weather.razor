@@ -16,9 +16,7 @@ else
     <ul>
         <SelectList Items="forecasts" @bind-SelectedItems="SelectedForecasts" Context="forecast">
             <ItemTemplate>
-                <li>
                     @forecast.Summary
-                </li>
             </ItemTemplate>
         </SelectList>
     </ul>
